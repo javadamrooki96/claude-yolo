@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/claude-yolo.gif" alt="claude-yolo demo" width="800" />
+  <img src="static/claude-yolo.gif" alt="claude-yolo demo" width="1000" />
 </p>
 
 # claude-yolo
