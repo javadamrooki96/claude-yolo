@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/claude-yolo.gif" alt="claude-yolo demo" width="600" />
+  <img src="static/claude-yolo.gif" alt="claude-yolo demo" width="800" />
 </p>
 
 # claude-yolo
@@ -21,7 +21,7 @@ sudo apt install toilet lolcat   # Debian/Ubuntu
 
 ## The Alias
 
-This is just an example. Sswap fonts, colours, text, whatever. Make it yours.
+This is just an example. Swap fonts, colours, text, whatever. Make it yours.
 
 ```bash
 alias claude-yolo="echo && toilet -f pagga -F metal 'DANGER ZONE' -w 140 | lolcat -r && echo && claude --dangerously-skip-permissions"
